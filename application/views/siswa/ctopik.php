@@ -5,7 +5,7 @@
  <div class="row">
    <div style="height: 80vh;">
    </div>
-        <iframe style="background-color: white;" src="<?php echo site_url('Siswa/load_konten/'); echo"$id_topik/$page/2"; ?>" class="col col-md-4">
+        <iframe style="background-color: white;" src="<?php echo site_url('Siswa/load_konten/'); echo"$id_topik/$page/1"; ?>" class="col col-md-4">
         </iframe> 
         <iframe style="background-color: white;" src="<?php echo site_url('Siswa/load_konten/'); echo"$id_topik/$page/2"; ?>" class="col col-md-4">
         </iframe> 
