@@ -1,19 +1,17 @@
 
-<div class="page-title-wrapper">
-    <div class="page-title-heading container">
+    <div class="row mb-2">
         <h2><?php echo "$nama_topik"; ?></h2>                                    
     </div>  
-</div>
- <div class="row container">
-        <iframe style="background-color: white;" src="<?php echo site_url('Admin/load_konten/'); echo"$id_topik/$page/1"; ?>" class="col col-md-4" height="400vh">
+ <div class="row">
+   <div style="height: 80vh;">
+   </div>
+        <iframe style="background-color: white;" src="<?php echo site_url('Siswa/load_konten/'); echo"$id_topik/$page/2"; ?>" class="col col-md-4">
         </iframe> 
-        <iframe style="background-color: white;" src="<?php echo site_url('Admin/load_konten/'); echo"$id_topik/$page/2"; ?>" class="col col-md-4" height="400vh">
+        <iframe style="background-color: white;" src="<?php echo site_url('Siswa/load_konten/'); echo"$id_topik/$page/2"; ?>" class="col col-md-4">
         </iframe> 
-        <iframe style="background-color: white;" src="<?php echo site_url('Admin/load_konten/'); echo"$id_topik/$page/3"; ?>" class="col col-md-4" height="400vh">
+        <iframe style="background-color: white;" src="<?php echo site_url('Siswa/load_konten/'); echo"$id_topik/$page/3"; ?>" class="col col-md-4">
         </iframe> 
   </div>
-</div>
-                    </div>
                     <div class="app-wrapper-footer">
                         <div class="app-footer">
                             <div class="app-footer__inner ">

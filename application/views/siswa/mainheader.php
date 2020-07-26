@@ -168,7 +168,6 @@ if ($this->session->userdata('akses')!='siswa') {
                             </ul>
                         </div>
                     </div>
-                </div>    <div class="app-main__outer">
-                    <div class="app-main__inner">
-                      <div class="row">
+                </div>    
+                    <div style="margin: 10px 30px 0 320px; width: 100%;">
                         

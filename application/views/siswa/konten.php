@@ -10,7 +10,7 @@ pre{ white-space:pre-wrap; word-wrap:break-word; }
 </style>
 </head>
 <body>
-	<div style="padding-top: 10px; text-align: justify;" class="container">
+	<div style="padding-top: 10px; text-align: justify;">
 		<h4><?php echo $judul;?></h4>
 	<p><pre><p style="font-family:courier;"><xmp><?php echo $isi; ?></xmp></p></pre></p>
 	<?php
